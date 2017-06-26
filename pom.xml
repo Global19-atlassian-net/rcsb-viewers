@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.rcsb</groupId>
     <artifactId>viewers</artifactId>
-    <version>4.7.9-SNAPSHOT</version>
+    <version>4.8.0-SNAPSHOT</version>
     <properties>
         <jogl.version>2.3.1</jogl.version>
         <jdk.version>1.6</jdk.version>
@@ -161,7 +161,7 @@
                             <goal>sign</goal>
                             <arguments>
                                 <argument>-tsa</argument>
-                                <argument>https://timestamp.geotrust.com/tsa</argument>
+                                <argument>http://timestamp.comodoca.com/</argument>
                             </arguments>
                         </configuration>
                     </plugin>
